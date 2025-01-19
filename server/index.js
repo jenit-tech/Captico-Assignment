@@ -21,7 +21,7 @@ app.get('/', (request, response) => {
 app.use('/course', courseRoute);
 
 mongoose
-  .connect('mongodb+srv://jenitjosephjose:ogshoxlvUSAGLH65@cluster0.rn63q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+  .connect('mongodb+srv://root:root@cluster0.rn63q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 )
   .then(() => {
     console.log('App connected to database');
